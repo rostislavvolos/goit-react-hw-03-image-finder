@@ -11,9 +11,11 @@
     align-items: center;
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 1200;
+    /* transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1); */
   }
   
   .Modal {
     max-width: calc(60vw - 48px);
     max-height: calc(100vh - 24px);
+    /* transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1); */
   }

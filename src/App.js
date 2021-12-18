@@ -61,7 +61,7 @@ class App extends Component {
         if (data.hits.length < 11) {
           newState.finish = true
         }
-        if (data.hits.length === 0) {
+        if (data.hits.length < 1) {
           newState.error = true
         }
         return newState;

@@ -7,7 +7,10 @@ const key = '24516187-6a7424301f95b0f6b37c73776';
 const instance = axios.create({
     baseURL: "https://pixabay.com/api",
     params: {
-        key: key
+        key: key,
+        image_type: 'photo',
+        orientation: 'horizontal',
+        per_page: 20
     }
 });
 
